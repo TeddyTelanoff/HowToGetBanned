@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "howtogetbanned",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "How To Get Banned Mod",
+  "description": "The perfect way to get you banned!",
   "authors": [
-    "Me!"
+    "Treidex"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,22 +14,20 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/howtogetbanned/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.treidex.howtogetbanned.Main"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.8.9"
   },
   "suggests": {
     "flamingo": "*"
